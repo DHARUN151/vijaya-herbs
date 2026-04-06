@@ -1,4 +1,4 @@
-# 🏪 Dharun Store - E-Commerce Website
+# 🏪 Vijaya Herbs - E-Commerce Website
 
 A modern, mobile-friendly e-commerce website for Dharun Store, a Tamil Nadu-based retail business specializing in authentic spices, oils, herbs, and premium food products.
 
