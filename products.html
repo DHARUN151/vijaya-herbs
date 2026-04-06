@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products - Dharun Store | Shop Now</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">🏪 Dharun Store</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html" class="active">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+      <h1>Our Products</h1>
+      <p>Browse our complete collection</p>
+    </div>
+
+    <!-- Filter/Search Section -->
+    <section class="filter-section">
+      <div class="container">
+        <div class="search-box">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search products..."
+            class="search-input"
+          />
+          <span class="search-icon">🔍</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+      <div class="container">
+        <div class="products-grid" id="allProducts">
+          <!-- Products will be loaded here by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2026 Dharun Store. All rights reserved. | Proudly serving Tamil
+          Nadu
+        </p>
+        <p>Follow us on WhatsApp for latest offers 📱</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      // Load all products when page loads
+      document.addEventListener("DOMContentLoaded", function () {
+        displayAllProducts();
+        setupSearch();
+      });
+    </script>
+  </body>
+</html>

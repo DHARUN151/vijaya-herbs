@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Dharun Store</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">🏪 Dharun Store</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you!</p>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h2>Dharun Store</h2>
+
+            <div class="info-item">
+              <span class="info-icon">📍</span>
+              <div>
+                <h3>Location</h3>
+                <p>Tamil Nadu, India</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <span class="info-icon">📞</span>
+              <div>
+                <h3>Phone</h3>
+                <p>+91 98765 43210</p>
+                <p class="small-text">(Business Hours: 9 AM - 8 PM)</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <span class="info-icon">💬</span>
+              <div>
+                <h3>WhatsApp</h3>
+                <p>+91 98765 43210</p>
+                <p class="small-text">(Available 24/7 for orders)</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <span class="info-icon">✉️</span>
+              <div>
+                <h3>Email</h3>
+                <p>info@dharunstore.com</p>
+              </div>
+            </div>
+
+            <div class="cta-buttons">
+              <a
+                href="https://wa.me/919876543210?text=Hello%20Dharun%20Store%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products"
+                target="_blank"
+                class="whatsapp-button"
+              >
+                💬 WhatsApp Us
+              </a>
+              <a href="tel:+919876543210" class="phone-button"> 📞 Call Us </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-wrapper">
+            <h2>Send us a Message</h2>
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  placeholder="Your Name"
+                  required
+                  class="form-input"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  required
+                  class="form-input"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="tel"
+                  placeholder="Your Phone"
+                  required
+                  class="form-input"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                  class="form-input"
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map/Info Section -->
+    <section class="info-section">
+      <div class="container">
+        <div class="info-box">
+          <h3>Why Choose Dharun Store?</h3>
+          <ul class="info-list">
+            <li>✅ 100% Authentic Products</li>
+            <li>✅ Farm to Table Quality</li>
+            <li>✅ Best Prices in Market</li>
+            <li>✅ Quick WhatsApp Support</li>
+            <li>✅ Safe & Secure Ordering</li>
+            <li>✅ Fast Local Delivery</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2026 Dharun Store. All rights reserved. | Proudly serving Tamil
+          Nadu
+        </p>
+        <p>Follow us on WhatsApp for latest offers 📱</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+      // Handle contact form submission
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          alert("Thank you for your message! We will contact you soon.");
+          this.reset();
+        });
+    </script>
+  </body>
+</html>
