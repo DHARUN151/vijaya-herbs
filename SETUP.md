@@ -1,4 +1,4 @@
-# 🏪 Dharun Store - E-Commerce Website
+# 🏪 Vijaya Herbs- E-Commerce Website
 
 A modern, mobile-friendly e-commerce website for a Tamil Nadu small business, built with HTML, CSS, and JavaScript.
 
